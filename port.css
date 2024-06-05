@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #025e43;
+  padding: 2rem;
+  font-family: 'Kanit', sans-serif;
+}
+#i1 {
+  color: #fff;
+  font-size: 70px;
+}
+span {
+  color: #29dca6;
+}
+.sec_1 {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  width: 80%;
+  padding: 3rem 6rem;
+  gap: 40px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-family: 'Satisfy', cursive;
+  color: #29dca6;
+}
+@media screen and (min-width: 760px) {
+  header {
+    flex-direction: row;
+  }
+}
+.head {
+  display: flex;
+  gap: 30px;
+}
+.head a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+.head a:hover {
+  cursor: pointer;
+  text-decoration: #29dca6 underline;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 760px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  #g2 img {
+    display: none;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+}
+.g1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  gap: 20px;
+}
+
+.g1 h1 {
+  font-size: 40px;
+  margin-top: -20px;
+}
+#g2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#g2 img {
+  height: 400px;
+  width: 400px;
+}
+.buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+.buttons button {
+  padding: 10px 15px;
+  color: #fff;
+  background: #29dca6;
+  font-size: 20px;
+  border: none;
+}
+.buttons button:hover {
+  cursor: pointer;
+}
+.sec_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  width: 80%;
+  padding: 3rem 6rem;
+  gap: 40px;
+}
+@media screen and (max-width: 760px) {
+  .sec_2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.sec_2 h1 {
+  color: #29dca6;
+  font-size: 40px;
+}
+.sec_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #000;
+  color: #fff;
+  width: 80%;
+  padding: 4rem;
+  gap: 30px;
+}
+@media screen and (max-width: 760px) {
+  .sec_3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .i1 h2 {
+    font-size: 15px;
+  }
+}
+.d1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.c1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #29dca6;
+  font-size: 20px;
+}
+.s1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fff 1px solid;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  gap: 20px;
+}
+#img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+}
+#desc {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.i1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#out {
+  background: #fff;
+  border: #fff 1px solid;
+  border-radius: 30px;
+  width: 100%;
+}
+#in {
+  background: #29dca6;
+  border: #29dca6 8px solid;
+  border-radius: 30px;
+  width: 70%;
+}
+#in1 {
+  background: #29dca6;
+  border: #29dca6 8px solid;
+  border-radius: 30px;
+  width: 50%;
+}
+#in2 {
+  background: #29dca6;
+  border: #29dca6 8px solid;
+  border-radius: 30px;
+  width: 30%;
+}
+#in3 {
+  background: #29dca6;
+  border: #29dca6 8px solid;
+  border-radius: 30px;
+  width: 15%;
+}
+#in4 {
+  background: #29dca6;
+  border: #29dca6 8px solid;
+  border-radius: 30px;
+  width: 40%;
+}
+.d2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 15px;
+}
+.d2 h1 {
+  color: #29dca6;
+  font-size: 40px;
+}
+.sec_4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  color: #fff;
+  background: #000;
+  width: 80%;
+}
+@media screen and (max-width: 760px) {
+  #s4 {
+    flex-direction: column;
+  }
+  .c2 {
+    margin-top: 20px;
+  }
+  .mess {
+    flex-direction: column;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c2 h1 {
+  color: #29dca6;
+  font-weight: 400;
+}
+.c2 h3 {
+  font-weight: 300;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+.icons ion-icon {
+  border: #29dca6 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+.icons ion-icon:hover {
+  cursor: pointer;
+  color: #29dca6;
+  border: #fff 1px solid;
+}
+.mess {
+  display: flex;
+  gap: 20px;
+}
+.mess input,
+#mess {
+  padding: 10px;
+  color: #29dca6;
+  border-radius: 5px;
+}
+.c2 button {
+  display: flex;
+  align-self: self-start;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.c2 button:hover {
+  cursor: pointer;
+  background: #29dca6;
+  color: #fff;
+}
